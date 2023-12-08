@@ -1,0 +1,5 @@
+FROM openjdk:11
+RUN cd /usr/local
+RUN curl -O "https://lift.cs.princeton.edu/java/linux/lift-cli.zip"
+RUN unzip lift-cli.zip
+RUN rm lift-cli.zip
